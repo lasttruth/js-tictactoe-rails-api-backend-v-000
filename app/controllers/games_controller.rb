@@ -6,11 +6,11 @@ class GamesController < ApplicationController
   end
 
   def show
-
+    render json: @games
   end
 
   def update
-
+    render json: @games
   end
 
   def index
